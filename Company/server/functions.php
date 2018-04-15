@@ -264,7 +264,7 @@
   //Get rank wise order of candidates applied for particular internship
   function getRankWiseOrder($internshipId){
     global $con;
-    $query = "SELECT * FROM internship_applications WHERE Internship_Id = '$internshipId' ORDER BY(Student_Internship_Score)";
+    $query = "SELECT * FROM internship_applications WHERE Internship_Id = '$internshipId' ORDER BY(Student_Internship_Score) DESC";
     $queryExec = mysqli_query($con, $query);
     while($row = mysqli_fetch_assoc($queryExec)){
       $rows[] = $row;
