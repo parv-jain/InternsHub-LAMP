@@ -1,0 +1,49 @@
+#myProfile-form {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 0.5em;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #d0d0d0 !important;
+}
+
+.filter-body {
+    margin: 5px;
+    padding: 2px;
+    border-radius: 0.5em
+}
+
+.filter-heading {
+    margin: 5px;
+    border-radius: 0.5em;
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+}
+
+.content {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.internship-post {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.information {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.leaderboard {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.fa_custom {
+    color: rgb(252, 40, 2)
+}
