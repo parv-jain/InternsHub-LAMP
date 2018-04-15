@@ -27,7 +27,7 @@
       }
     }
     else if($toggle == 'delete'){
-      echo $query = "DELETE FROM student_favourites WHERE Student_Id = '$studentId' AND Internship_Id = '$internshipId'";
+      $query = "DELETE FROM student_favourites WHERE Student_Id = '$studentId' AND Internship_Id = '$internshipId'";
       $queryExec = mysqli_query($con, $query);
       if($queryExec){
         showMessage('Removed from favourites', $redirect);
