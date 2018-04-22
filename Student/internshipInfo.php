@@ -253,10 +253,11 @@ if(isset($_GET['internshipId']) && !empty($_GET['internshipId'])){
                                     <h5 class="modal-title" id="exampleModalLongTitle">Go for it!</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
-                                  </button>
+                                    </button>
                                 </div>
                                 <form method="post" enctype="multipart/form-data">
                                   <div class="modal-body">
+                                    <a class="float-right" href="test-window.php" target="_blank">Click here to give test</a>
                                       <div class="form-group">
                                           <label for="solutionLink">Link for your solution</label>
                                           <input type="text" class="form-control" id="solutionLink" placeholder="Paste Google Drive/DropBox link of your solution" name="solutionLink" required>

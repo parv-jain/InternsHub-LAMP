@@ -137,6 +137,7 @@
 			<div class="" id="">
 				<div class="card card-body">
 				<h5>Submissions</h5>
+				<a href="https://admin.speedexam.net/result.aspx?SSTATE=m6ppieobXCi7lSazbcZbCvJDHnYX+HT0IRiGeWdegLySxAyzK7IYQfn1j0Bv54ApJaUMTo6qpKmFDSY0+b/75Bg5aioX8aEM72t/nlbC8qI=" target="_blank">Click here to see test results</a>
 				<?php
 				$applications = getApplicationsByInternshipId($internshipId);
 				foreach($applications as $application){

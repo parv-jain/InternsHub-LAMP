@@ -5,21 +5,21 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Add New">
 			<a class="nav-link" href="add-new.php">
-			<i class="fa fa-fw fa-dashboard"></i>
+			<i class="fa fa-fw fa-plus-square-o"></i>
 			<span class="nav-link-text">Add new</span>
 			</a>
 		</li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Past Internships">
 			<a class="nav-link" href="view.php">
-			<i class="fa fa-fw fa-dashboard"></i>
+			<i class="fa fa-fw fa-database"></i>
 			<span class="nav-link-text">Past Internships</span>
 			</a>
 		</li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Company Profile">
 			<a class="nav-link" href="profile.php">
-			<i class="fa fa-fw fa-dashboard"></i>
+			<i class="fa fa-fw fa-info"></i>
 			<span class="nav-link-text">Company Profile</span>
 			</a>
 		</ul>
