@@ -49,7 +49,7 @@
 		<div class="pb-2" id="">
 			<div class="card card-body">
 				<h5>Leaderboard</h5>
-				<table class="table table-responsive" id="leaderboard">
+				<table class="table table-responsive" id="leaderboard" style="display:table;">
 					<thead class="thead-dark">
 						<tr>
 							<th scope="col">Rank</th>

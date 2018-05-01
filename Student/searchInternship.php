@@ -228,7 +228,7 @@ $allInternships = getAllDataFromTable("internships");
                           <div class="card card-body">
                               <h5>Leaderboard</h5>
 
-                              <table class="table table-responsive">
+                              <table class="table table-responsive" style="display:table;">
                                   <thead class="thead-dark">
                                       <tr>
                                           <th scope="col">Rank</th>
@@ -284,7 +284,7 @@ $allInternships = getAllDataFromTable("internships");
         <footer class="sticky-footer">
             <div class="container">
                 <div class="text-center">
-                    <small>Copyright © Sivana Inc. 2018</small>
+                    <small>Major Project May 2018</small>
                 </div>
             </div>
         </footer>
